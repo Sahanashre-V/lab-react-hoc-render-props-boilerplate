@@ -10,8 +10,8 @@ function App() {
     <div>
       <h3>Some Blog</h3>
       <div className='buttons'>
-        {/* <CompCall/>
-        <ComponentCall/> */}
+        <CompCall/>
+        <ComponentCall/>
 
 <Counter render={({count,changeHandle})=>(
         <LikePost1 count={count} handleclick={changeHandle}/>)}/>       
